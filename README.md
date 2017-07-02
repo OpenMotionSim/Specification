@@ -1,6 +1,6 @@
 # Open motion simulator protocol specification
 
-Data sent to the platform has the following structure and encapsulated into a UDP datagramm:
+Data that is sent to a platform has the following structure and encapsulated into a UDP datagramm:
 
 Yaw | Pitch | Roll | Height
 ---|---|---|---
