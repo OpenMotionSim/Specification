@@ -11,7 +11,7 @@ float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4 bytes)
 * Yaw - heading of the platrorm in degrees.  
   *Platform is considered have 0 yaw at startup.*
 * Pitch - pitch of the platform in degress.  
-  *Platform is considered have 0 pitch at startup.*
+  *Platform is considered to have 0 pitch at startup.*
 * Roll - roll of the platform in degress.  
   *Platform is considered to have 0 roll at startup.*
 * Height - height of the platfrom from the base height in meters.  
