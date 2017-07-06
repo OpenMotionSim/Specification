@@ -8,7 +8,7 @@ float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4
 
 ## Fields
 
-* Time - time from the start of simulation in seconds.
+* Time - time from the start of a simulation in seconds.
 * Yaw - heading of the platrorm in degrees.  
   *Platform is considered have 0 yaw at startup.*
 * Pitch - pitch of the platform in degress.  
