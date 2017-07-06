@@ -2,12 +2,13 @@
 
 Data that is sent to a platform is encapsulated into a UDP datagramm with the following structure:
 
-Yaw | Pitch | Roll | Height
----|---|---|---
-float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4 bytes) 
+Time | Yaw | Pitch | Roll | Height
+---|---|---|---|---
+float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4 bytes) | float (4 bytes) 
 
 ## Fields
 
+* Time - time from the start of simulation in seconds.
 * Yaw - heading of the platrorm in degrees.  
   *Platform is considered have 0 yaw at startup.*
 * Pitch - pitch of the platform in degress.  
